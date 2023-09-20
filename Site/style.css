@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    font-family: 'Baumans', cursive;
+    color: white;
+}
+
+.container {
+    margin: 0px 70px;
+}
+
+.header {
+    background-image: url(./image/SCP_Foundation_Logo_v3.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.textlogo {
+    display: flex;
+    color: #CF2323;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.textlogo:hover {
+    color: #ffffff;
+}
+
+.header-line {
+    width: 100%;
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainmenuitem {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 25px;
+    transition: color 0.2s linear;
+}
+
+
+.mainmenuitem:hover {
+    color: #ce0000;
+}
+
+.line1 {
+    padding-right: 20px;
+    height: 50px;
+}
+
+
+.gma {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.2s linear;
+}
+
+.gma:hover {
+    color: #ce0000;
+}
+
+.gmail-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.gmail-holder {
+    margin: 0 10px;
+}
+
+.gmail-item { 
+    margin: 0px 10px;
+    color: white;
+  }
+
+#gi1 {
+    font-size: 32px;
+}
+
+
+#gi2 {
+    padding-left: 3vh;
+}
+
+#gi3 {
+    padding-left: 3vh;
+}
+
+.button {
+    font-size: 44px;
+    background-color: #00E1E1;
+    color: white;
+    text-decoration: none;
+    padding: 8px 50px;
+    border-radius: 38px;
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #00a0a0;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 670px;
+}
+
+.header-title span{
+    color: orange
+}
+
+.btnht {
+    font-size: 30px;
+    background-color: #00E1E1;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 38px;
+    transition: background-color 0.2s linear;
+}
+
+.btnht:hover {
+    background-color: #00a0a0;
+}
+
+.header-suptitle {
+    color: white;
+    font-size: 30px;
+}
+
+.header-suptitle::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 107px;
+    left: 985px;
+}
+
+.header-suptitle::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: white;
+    top: 107px;
+    left: 719px;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 349px;
+    height: 330px;
+    box-shadow: 4px 7px 5px 5px rgb(167, 167, 167);
+    margin-right: 31px;
+    padding: 0px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.cart-title {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.card-desc {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.history{
+    margin-top: 166px;
+    margin-left: 50px;
+    padding-bottom: 200px;
+}
+
+.history-title span{
+    color: orange;
+}
+
+.history-title {
+    color: white;
+    font-size: 48px;
+    width: 1066px;
+    text-align: center;
+}
+
+.line2{
+    display: flex;
+    margin-top: 19px;
+}
+
+.history-desc{
+    color: white;
+    font-size: 25px;
+    width: 1066px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.number-item span{
+    color: orange;
+}
+
+
+.history-number{
+    display: flex;
+    width: 1066px;
+    justify-content: center;
+}
+
+.number-item{
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.number-item span{
+    display: block;
+}
+
+.history-holder{
+    display: flex;
+}
+
+.history-images{
+    position: relative;
+    margin-top: 50px;
+}
+
+.image-1{
+    position: absolute;
+    z-index: 999;
+    top: -32px;
+    left: -95px;
+}
+
+.image-2{
+    position: absolute;
+    z-index: 0;
+    top: -32px;
+    left: -95px;
+}
+
+
+
+
+.black-block {
+    background-image: url(./image/bgdelta.png);
+    padding: 80px 0;
+    width: 1900px;
+    height: 640px;
+    background-repeat: no-repeat;
+}
+
+.left-title {
+    font-size: 52px;
+    color: orange;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.left-title span {
+    color: rgb(27, 214, 214);
+}
+
+.left-text {
+    margin-left: 170px;
+    font-size: 24px;
+}
+
+.right-btn {
+    font-size: 20px;
+    background-color: #00E1E1;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 300px;
+    border-radius: 38px;
+    transition: background-color 0.2s linear;
+}
+
+.right-btn:hover {
+    background-color: #00a0a0;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dishes-title {
+    font-size: 54px;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 20px;
+}
+
+.dishes-title a {
+    font-size: 20px;
+}
+
+.dishes-title span {
+    color: orange;
+}
+
+
+.donats {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.delta-image {
+    margin-right: 20px;
+}
+
+.donate-text {
+    font-size: 24px;
+    margin-left: 20px;
+}
