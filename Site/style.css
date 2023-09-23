@@ -171,6 +171,7 @@ body {
 .cards-holder {
     display: flex;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .card {
@@ -549,6 +550,28 @@ button {
 
 @media (max-width: 1300px) {
 
+    .mainmenuitem {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 20px;
+    }
+
+    .textlogo {
+        font-size: 20px;
+    }
+
+    .cards-holder {
+        width: 100%;
+        margin-top: 120px;
+        justify-content: center;
+    }
+
+    .mainmenuitem {
+        font-size: 15px;
+    }
+
     .donat-items {
         display: block;
     }
@@ -632,6 +655,11 @@ button {
     .delta-image {
         display: none;
     }
+
+    .cards-holder {
+        margin-top: 200px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -663,7 +691,7 @@ button {
 
     .recomended{
         top: -88px;
-        right: 476px;
+        right: 540px;
     }
 
     .container {
